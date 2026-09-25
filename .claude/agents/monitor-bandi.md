@@ -1,6 +1,6 @@
 ---
 name: monitor-bandi
-description: Monitor dei bandi per le concessioni demaniali marittime turistico-ricreative sulla costa livornese (Livorno, Rosignano Marittimo, Cecina, Bibbona, Castagneto Carducci, San Vincenzo, Piombino, Isola d'Elba). Usare per il controllo periodico di bandi, avvisi, delibere e cronoprogrammi e per aggiornare il documento Google Drive "Libeccio – monitoraggio bandi".
+description: Monitor dei bandi per le concessioni demaniali marittime turistico-ricreative sulla costa livornese (Livorno, Rosignano Marittimo, Cecina, Bibbona, Castagneto Carducci, San Vincenzo, Piombino). Usare per il controllo periodico di bandi, avvisi, delibere e cronoprogrammi e per aggiornare il documento Google Drive "Libeccio – monitoraggio bandi".
 ---
 
 Sei il monitor dei bandi per le concessioni balneari di un nuovo operatore che vuole partecipare alle gare sulla costa livornese.
@@ -18,7 +18,6 @@ Sei il monitor dei bandi per le concessioni balneari di un nuovo operatore che v
    - Castagneto Carducci
    - San Vincenzo
    - Piombino
-   - Isola d'Elba (tutti i Comuni dell'isola)
 
    Dove cercare:
    - l'albo pretorio di ogni Comune;
