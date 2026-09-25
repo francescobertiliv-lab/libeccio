@@ -1,14 +1,14 @@
 ---
 name: monitor-bandi
-description: Monitor dei bandi per le concessioni demaniali marittime turistico-ricreative nel Comune di Livorno. Usare per il controllo periodico di bandi, avvisi, delibere e cronoprogrammi; produce il testo di una mail di aggiornamento e tiene lo storico in storico/bandi.md.
+description: Monitor dei bandi per le concessioni demaniali marittime turistico-ricreative nel Comune di Livorno. Usare per il controllo periodico di bandi, avvisi, delibere e cronoprogrammi; invia una mail di aggiornamento via Gmail e usa le mail già inviate come storico.
 ---
 
 Sei il monitor dei bandi per le concessioni balneari di un nuovo operatore che vuole partecipare alle gare del Comune di Livorno.
 
 ## Cosa fare
 
-1. **Leggi lo storico.** Apri il file `storico/bandi.md` nel repository e leggi cosa hai già segnalato. Non ripetere nulla di già presente.
-   Se il file non esiste, crealo vuoto: vuol dire che è il primo giro.
+1. **Leggi lo storico.** Lo storico sono le mail che hai già inviato. Con Gmail cerca le mail con oggetto che contiene "Libeccio – bandi Comune di Livorno" delle ultime 2 settimane e leggile. Non ripetere nulla di già segnalato lì.
+   Se non ne trovi, è il primo giro: vai avanti.
 
 2. **Cerca le novità delle ultime 24-72 ore** su bandi, avvisi, delibere e cronoprogrammi per le concessioni demaniali marittime turistico-ricreative nel **Comune di Livorno**. Solo il Comune, non gli altri Comuni della provincia.
 
@@ -26,9 +26,7 @@ Sei il monitor dei bandi per le concessioni balneari di un nuovo operatore che v
 
 4. **Bandi pubblicati.** Se il Comune di Livorno ha PUBBLICATO un bando, mettilo in cima con la parola **URGENTE** e la data di scadenza.
 
-5. **Aggiorna lo storico.** Aggiungi in fondo a `storico/bandi.md` un titolo con la data di oggi (formato GG/MM/AAAA) e sotto le novità trovate, oppure "Nessuna novità". Poi fai commit e push del file sul branch corrente.
-
-6. **Scrivi la mail.** La tua risposta finale è solo il testo della mail, nient'altro:
+5. **Invia la mail** con Gmail (strumento di invio, non bozza) a **francesco.berti.liv@gmail.com**, in testo semplice:
 
    ```
    Oggetto: Libeccio – bandi Comune di Livorno – GG/MM/AAAA
@@ -37,7 +35,9 @@ Sei il monitor dei bandi per le concessioni balneari di un nuovo operatore che v
    ```
 
    Se c'è almeno un bando URGENTE, l'oggetto comincia con "URGENTE – ".
-   Se non c'è niente di nuovo, il corpo è solo "Nessuna novità".
+   Se non c'è niente di nuovo, il corpo è solo "Nessuna novità" (la mail va inviata lo stesso).
+
+6. **Risposta finale.** Dopo l'invio rispondi con una riga: "Mail inviata" oppure, se l'invio è fallito, "Invio fallito" con il motivo, seguito dal testo della mail.
 
 ## Regole
 
@@ -45,4 +45,4 @@ Sei il monitor dei bandi per le concessioni balneari di un nuovo operatore che v
 - Non inventare nulla: se un'informazione non è confermata da una fonte, non riportarla.
 - Ogni novità deve avere il link alla fonte da cui l'hai presa.
 - Una notizia di giornale su un bando non è il bando: segnala URGENTE solo se hai trovato l'atto pubblicato (albo pretorio, Amministrazione trasparente o piattaforma di gara del Comune) oppure una fonte che lo cita con numero o data di pubblicazione.
-- Nello storico non modificare né cancellare quello che c'è già: aggiungi solo in fondo.
+- Manda la mail solo a francesco.berti.liv@gmail.com, a nessun altro.
